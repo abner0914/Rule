@@ -1,2 +1,13 @@
-[SSID Setting]
-"AC86U" suspend=true
+# 实用规则片段集
+# RULE-SET,SYSTEM,DIRECT
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/Apple-proxy.list,Proxy
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/Apple-direct.list,DIRECT
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/CN.list,DIRECT
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/common-ad-keyword.list,REJECT-TINYGIF
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/foreign.list,Proxy
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/App/social/Telegram.list,Proxy
+RULE-SET,LAN,DIRECT
+
+# 最终规则
+GEOIP,CN,DIRECT
+FINAL,Proxy,dns-failed
