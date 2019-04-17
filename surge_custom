@@ -1,11 +1,11 @@
 # 实用规则片段集
 # RULE-SET,SYSTEM,DIRECT
-RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/Apple-proxy.list,Proxy
-RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/Apple-direct.list,DIRECT
-RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/CN.list,DIRECT
-RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/common-ad-keyword.list,REJECT-TINYGIF
-RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/foreign.list,Proxy
-RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/App/social/Telegram.list,Proxy
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/Apple-proxy.list,Proxy,update-interval=300
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/Apple-direct.list,DIRECT,update-interval=300
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/CN.list,DIRECT,update-interval=300
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/common-ad-keyword.list,REJECT-TINYGIF,update-interval=300
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/Basic/foreign.list,Proxy,update-interval=300
+RULE-SET,https://github.com/Hackl0us/SS-Rule-Snippet/raw/master/Rulesets/App/social/Telegram.list,Proxy,update-interval=300
 RULE-SET,LAN,DIRECT
 
 # 最终规则
