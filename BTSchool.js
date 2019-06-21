@@ -4,7 +4,7 @@
 // @version         1.0.0
 // @author          GSM
 // @loginURL        http://pt.btschool.club
-// @updateURL       https://gitee.com/inu1255/soulsign-chrome/raw/master/public/demos/hdhome.js
+// @updateURL       https://raw.githubusercontent.com/abner0914/Rule/master/BTSchool.js
 // @expire          14400e3
 // @domain          pt.btschool.club
 // ==/UserScript==
