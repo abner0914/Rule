@@ -2,7 +2,7 @@
 // @name            BTSchool
 // @namespace       https://github.com/inu1255/soulsign-chrome
 // @version         1.0.0
-// @author          GSM
+// @author          10
 // @loginURL        http://pt.btschool.club
 // @updateURL       https://raw.githubusercontent.com/abner0914/Rule/master/BTSchool.js
 // @expire          14400e3
