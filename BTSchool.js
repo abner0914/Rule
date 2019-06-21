@@ -10,8 +10,8 @@
 // ==/UserScript==
 
 exports.run = async function() {
-    var { data } = await axios.get('http://pt.btschool.club/index.php?action=addbonus');
-    if (data.code == 200) return '签到成功';
+    var { status, data } = await axios.get('http://pt.btschool.club/index.php?action=addbonus');
+    if (status == 200) return '签到成功';
     throw '访问失败';
 };
 
