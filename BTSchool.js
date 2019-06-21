@@ -11,8 +11,7 @@
 
 exports.run = async function() {
     var { data } = await axios.get('http://pt.btschool.club/index.php?action=addbonus');
-    if (/签到成功/.test(data)) return '签到成功';
-    if (/您今天已经签到过了/.test(data)) return '今日已签';
+    if (data.code == 200)) return '签到成功';
     throw '访问失败';
 };
 
