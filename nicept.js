@@ -4,7 +4,7 @@
 // @version         1.0.0
 // @author          10
 // @loginURL        https://www.nicept.net
-// @updateURL       
+// @updateURL       https://raw.githubusercontent.com/abner0914/Rule/master/nicept.js
 // @expire          14400e3
 // @domain          www.nicept.net
 // ==/UserScript==
