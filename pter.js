@@ -16,6 +16,6 @@ exports.run = async function() {
 };
 
 exports.check = async function() {
-    var { data } = await axios.get('https://pter.club/index.php');
+    var { data } = await axios.get('https://pterclub.com/index.php');
     return /欢迎回来/.test(data);
 };
