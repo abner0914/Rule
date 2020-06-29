@@ -3,5 +3,5 @@
 #!system=ios
 
 [Script]
-# > 京东签到 DailyBonus by NobyDa
-Crontab: 京东 = type=cron,cronexp="0 1,6 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome.js
+# > hdhome DailyBonus
+Crontab: hdhome = type=cron,cronexp="1 5 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome.js
