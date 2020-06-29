@@ -7,4 +7,4 @@ hostname = %APPEND% hdhome.org
 
 [Script]
 # > hdhome GetCookie
-Cookie: hdhome = type=http-request,pattern=^https?:\/\/hdhome\.org\/?.?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+Cookie: hdhome = type=http-request,pattern=^https?:\/\/hdhome\.org\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome_cookie.js
