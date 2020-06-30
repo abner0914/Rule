@@ -8,3 +8,6 @@ Crontab: 家园_hdhome = type=cron,cronexp="1 5 * * *",script-path=https://raw.g
 
 # > 堡_ourbits 签到 DailyBonus
 Crontab: 堡_ourbits = type=cron,cronexp="2 5 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/ourbits.js
+
+# > 之家_pthome 签到 DailyBonus
+Crontab: 之家_pthome = type=cron,cronexp="3 5 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/pthome.js
