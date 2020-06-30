@@ -3,8 +3,11 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% hdhome.org
+hostname = %APPEND% hdhome.org,ourbits.club
 
 [Script]
-# > hdhome GetCookie
-Cookie: hdhome = type=http-request,pattern=^https?:\/\/hdhome\.org\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome_cookie.js
+# > 家园_hdhome GetCookie
+Cookie: 家园_hdhome = type=http-request,pattern=^https?:\/\/hdhome\.org\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome_cookie.js
+
+# > 堡_ourbits GetCookie
+Cookie: 堡_ourbits = type=http-request,pattern=^https?:\/\/ourbits\.club\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/ourbits_cookie.js

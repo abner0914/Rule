@@ -3,5 +3,5 @@
 #!system=ios
 
 [Script]
-# > hdhome DailyBonus
-Crontab: hdhome = type=cron,cronexp="1 5 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome.js
+# > 家园_hdhome 签到 DailyBonus
+Crontab: 家园_hdhome = type=cron,cronexp="1 5 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome.js
