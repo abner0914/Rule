@@ -4,10 +4,13 @@
 
 [Script]
 # > 家园_hdhome 签到 DailyBonus
-Crontab: 家园_hdhome = type=cron,cronexp="30 20 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome.js
+Crontab: 家园_hdhome = type=cron,cronexp="1 5 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdhome.js
 
 # > 堡_ourbits 签到 DailyBonus
-Crontab: 堡_ourbits = type=cron,cronexp="31 20 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/ourbits.js
+Crontab: 我堡_ourbits = type=cron,cronexp="2 5 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/ourbits.js
 
 # > 之家_pthome 签到 DailyBonus
-Crontab: 之家_pthome = type=cron,cronexp="32 20 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/pthome.js
+Crontab: 之家_pthome = type=cron,cronexp="3 5 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/pthome.js
+
+# > 校园_btschool 签到 DailyBonus
+Crontab: 校园_btschool = type=cron,cronexp="10 22 * * *",script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/btschool.js

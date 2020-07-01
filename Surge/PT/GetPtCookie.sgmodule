@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% hdhome.org,ourbits.club,pthome.net
+hostname = %APPEND% hdhome.org,ourbits.club,pthome.net,pt.btschool.club
 
 [Script]
 # > 家园_hdhome GetCookie
@@ -14,3 +14,6 @@ Cookie: 堡_ourbits = type=http-request,pattern=^https?:\/\/ourbits\.club\/?.?,s
 
 # > 之家_pthome GetCookie
 Cookie: 之家_pthome = type=http-request,pattern=^https?:\/\/pthome\.net\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/pthome_cookie.js
+
+# > 校园_btschool GetCookie
+Cookie: 校园_btschool = type=http-request,pattern=^https?:\/\/pt\.btschool\.club\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/btschool_cookie.js
