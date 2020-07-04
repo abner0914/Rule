@@ -1,18 +1,18 @@
-const cookieName = 'ourbits.club'
-const cookieKey = 'cookie_ourbits'
+const cookieName = 'hdarea.co'
+const cookieKey = 'cookie_hdarea'
 const cookieVal = $persistentStore.read(cookieKey)
 
 function sign() {
   let url = {
-    url: `https://ourbits.club/attendance.php`,
+    url: `https://www.hdarea.co/sign_in.php`,
     headers: {
-      Cookie: cookieVal
-    }
+      Cookie: cookieVal,
+      'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+    },
+    body: "action=sign_in"
   }
-  url.headers['Referer'] = 'https://ourbits.club/'
-  url.headers['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
 
-  $httpClient.get(url, (error, response, data) => {
+  $httpClient.post(url, (error, response, data) => {
     let result = JSON.parse(data)
     let title = `${cookieName}`
     // 签到成功

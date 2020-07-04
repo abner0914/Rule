@@ -16,7 +16,7 @@ function sign() {
     let result = JSON.parse(data)
     let title = `${cookieName}`
     // 签到成功
-    if (result.code == 200) {
+    if (response.status == 200) {
       let subTitle = `签到成功`
       let detail = `详见日志`
       $notification.post(title, subTitle, detail)
