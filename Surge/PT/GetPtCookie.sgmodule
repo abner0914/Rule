@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% hdhome.org,ourbits.club,pthome.net,pt.btschool.club,www.hdarea.co
+hostname = %APPEND% hdhome.org,ourbits.club,pthome.net,pt.btschool.club,www.hdarea.co,hdchina.org,www.nicept.net
 
 [Script]
 # > 家园_hdhome GetCookie
@@ -20,3 +20,9 @@ Cookie: 校园_btschool = type=http-request,pattern=^https?:\/\/pt\.btschool\.cl
 
 # > 高清_hdarea GetCookie
 Cookie: 高清_hdarea = type=http-request,pattern=^https?:\/\/www\.hdarea\.co\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdarea_cookie.js
+
+# > 瓷器_hdchina GetCookie
+Cookie: 瓷器_hdchina = type=http-request,pattern=^https?:\/\/hdchina\.org\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/hdchina_cookie.js
+
+# > 老师_nicept GetCookie
+Cookie: 老师_nicept = type=http-request,pattern=^https?:\/\/www\.nicept\.net\/?.?,script-path=https://raw.githubusercontent.com/abner0914/Rule/master/Surge/PT/nicept_cookie.js
