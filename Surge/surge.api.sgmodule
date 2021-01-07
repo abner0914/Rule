@@ -1,0 +1,6 @@
+#!name=http-api iOS Tasks Module
+#!desc=iOS http-api 模块配置
+#!system=ios
+
+[General]
+http-api = abner@0.0.0.0:6166
